@@ -9,3 +9,20 @@
 **Github:** github.com/Irina50
 __________________________________
 
+## Education
+*2011, Kharkiv Radio Engineering College, Kharkiv, Ukraine*
+**Major:** Programming for Computer Technologies and Automated Systems
+*2020, Sanya Aviation and Tourism College, Sanya, China*
+**Major:** Hotel Business 
+*June 2020, School of Dmytry Lavric, course "Advanced web-development and Smart grid"* 
+An interactive course in small group with mentor, which included knowledge about Flexbox, NPM. How to create project in Gulp, how to use preprocessors SCSS/LESS and Smart Grid.
+*September 2020, School of Dmytry Lavric, course "JavaScript for markup developer"*
+An interactive course in small group with mentor which included knowledge about Events, work with data-attributes, Context, Form validation, Throttling and debouncing, OOP in ES6+. How to work with libraries in JS (jQuery), what is callback and other.
+*November 2020, Glo Academy, Wordpress course* 
+An online course about using Wordpress, including optimization of download speed, SEO for Wordpress etc.
+
+## Work experience:
+September 2015 - January 2019 *ABSOLUTE RESORTS&HOTELS LTD*, sales consultant
+January 2019 - March 2019 *INTERCONTINENTAL HOTELS GROUP*, internship
+March 2019 - March 2020 *Sanya Aviation and Tourism College*, Russian teacher for Chinese students.
+January 2021 -till now * web studio Web-machine*, web developer.
