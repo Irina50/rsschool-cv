@@ -41,9 +41,3 @@ January 2021 -till now * web studio Web-machine*, web developer.
 
 ## Additional information:
 Languages: Ukrainian (mother-tongue), Russian (mother-tongue), English (upper-intermediate), Chinese (advanced)
-1. Task: https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/git-markdown
-2. Screenshot:
-   ![](https://drive.google.com/file/d/1CuOP9UbkeZ2o1xSA-C-QH3lc6SlwJ36Q/view?usp=sharing)
-3. Deploy: https://irina50.github.io/rsschool-cv/
-4. Done 06.03.2021 / deadline 08.03.2021
-5. Score: 100/100
