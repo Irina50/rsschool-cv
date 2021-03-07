@@ -10,6 +10,8 @@
 </head>
 
 <body>
+	<header class="header"> 
+		<div>My CV</div></header>
 <div class="container">
   <main class="main">
       <section class="private-info">
@@ -82,25 +84,25 @@
       </section>
       <section class="example">
       <h3 class="title">Code example</h3>
-        <code>`form.addEventListener('submit', function(e){ <br>
-		let hasError = false;<br>
-<br>
-		for(let i = 0; i <inputs.length; i++){ <br>
-			let valid = inputs[i].dataset.valid;<br>
-			let pattern = patterns[valid]; <br>
-			let value = inputs[i].value.trim();<br>
-<br>
-			if(!pattern.test(value)){ <br>
-				inputs[i].classList.add('err'); <br>
-				hasError = true; <br>
-			} <br>
-		}<br>
+        <pre>form.addEventListener('submit', function(e){ 
+		let hasError = false;
 
-		if(hasError){ <br>
-			e.preventDefault(); <br>
-		}<br>
-	}); <br>
-                                     `</code>
+		for(let i = 0; i <inputs.length; i++){ 
+			let valid = inputs[i].dataset.valid;
+			let pattern = patterns[valid]; 
+			let value = inputs[i].value.trim();
+
+			if(!pattern.test(value)){ 
+				inputs[i].classList.add('err'); 
+				hasError = true; 
+			} 
+		}
+
+		if(hasError){
+			e.preventDefault();
+		}
+	}); 
+                                     </pre>
       </section>
       <section class="skills">
         <h3 class="title">Skills:</h3>
