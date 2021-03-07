@@ -82,24 +82,24 @@
       </section>
       <section class="example">
       <h3 class="title">Code example</h3>
-        <code>form.addEventListener('submit', function(e){
-		let hasError = false;
+        <code>form.addEventListener('submit', function(e){ /n
+		let hasError = false;/n
+/n
+		for(let i = 0; i < inputs.length; i++){ /n
+			let valid = inputs[i].dataset.valid; /n
+			let pattern = patterns[valid]; /n
+			let value = inputs[i].value.trim(); /n
+/n
+			if(!pattern.test(value)){ /n
+				inputs[i].classList.add('err'); /n
+				hasError = true; /n
+			} /n
+		} /n
 
-		for(let i = 0; i < inputs.length; i++){
-			let valid = inputs[i].dataset.valid;
-			let pattern = patterns[valid];
-			let value = inputs[i].value.trim();
-
-			if(!pattern.test(value)){
-				inputs[i].classList.add('err');
-				hasError = true;
-			}
-		}
-
-		if(hasError){
-			e.preventDefault();
-		}
-	});
+		if(hasError){ /n
+			e.preventDefault(); /n
+		}/n
+	}); /n
                                      </code>
       </section>
       <section class="skills">
