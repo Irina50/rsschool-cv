@@ -116,3 +116,6 @@ p {
 .skills__list {
   padding-left: 30px;
 }
+code {
+  color: dimgray;
+}
