@@ -123,6 +123,7 @@ pre {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 .footer-info a,
 .footer-info span{
