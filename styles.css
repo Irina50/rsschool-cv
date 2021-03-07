@@ -97,7 +97,7 @@ section {
   padding-bottom: 10px;
 }
 .private-info__img {
-  max-width: 200px;
+  max-width: 250px;
 }
 .title {
   font-weight: bold;
@@ -120,8 +120,8 @@ pre {
   color: dimgray;
 }
 .footer {
-      display: flex;
-    justify-content: space-beetwen;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .footer-info a,
