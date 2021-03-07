@@ -80,6 +80,28 @@
           teacher
           for Chinese students</p>
       </section>
+      <section class="example">
+      <h3 class="title">Code example</h3>
+        <code>form.addEventListener('submit', function(e){
+		let hasError = false;
+
+		for(let i = 0; i < inputs.length; i++){
+			let valid = inputs[i].dataset.valid;
+			let pattern = patterns[valid];
+			let value = inputs[i].value.trim();
+
+			if(!pattern.test(value)){
+				inputs[i].classList.add('err');
+				hasError = true;
+			}
+		}
+
+		if(hasError){
+			e.preventDefault();
+		}
+	});
+                                     </code>
+      </section>
       <section class="skills">
         <h3 class="title">Skills:</h3>
         <ul class="skills__list">
