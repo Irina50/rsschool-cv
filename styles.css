@@ -119,8 +119,19 @@ p {
 code {
   color: dimgray;
 }
-.footer-info {
+.footer {
       display: flex;
-    justify-content: flex-end;
+    justify-content: space-beetwen;
     align-items: center;
+}
+.footer-info a,
+.footer-info span{
+  color: #000;
+}
+.footer-info span {
+  margin-left: 20px;
+}
+.logo {
+  display:block;
+  max-width: 150px;
 }
