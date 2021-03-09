@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="container">
+    <header class="header"> 
+		<div>My CV</div>
+	</header>
+
+  <main class="main">
+      <section class="private-info">
+        <h1 class="private-info__title">Junior JavaScript Developer</h1>
+        <div class="private-info__inner">
+          <table class="private-info__table">
+            <tr>
+              <th>Name:</th>
+              <td>Horielkova Iryna</td>
+            </tr>
+            <tr>
+              <th>Date of Birth:</th>
+              <td>February 4, 1991</td>
+            </tr>
+            <tr>
+              <th>Phone:</th>
+              <td>+380(99) 048 65 13</td>
+            </tr>
+            <tr>
+              <th>Email:</th>
+              <td>gorelkova91@gmail.com</td>
+            </tr>
+            <tr>
+              <th>Github:</th>
+              <td>github.com/Irina50</td>
+            </tr>
+          </table>
+          <div class="private-info__img">
+            <img src="avatar.jpg" alt="avatar">
+          </div>
+        </div>
+      </section>
+      <section class="education">
+        <h3 class="title">Education:</h3>
+        <h5 class="education-subtitle">2011, Kharkiv Radio Engineering College, Kharkiv, Ukraine</h5>
+        <p>Major: Programming for Computer Technologies and Automated Systems</p>
+
+        <h5 class="education-subtitle">2020, Sanya Aviation and Tourism College, Sanya, China</h5>
+        <p>Major: Hotel Business</p>
+
+        <h5 class="education-subtitle">June 2020, School of Dmytry Lavric, course "Advanced web-development and Smart
+          grid".</h5>
+        <p>An interactive course in small group with mentor, which included knowledge
+          about
+          Flexbox, NPM. How to create project in
+          Gulp, how to use preprocessors SCSS/LESS and Smart Grid.</p>
+
+        <h5 class="education-subtitle">September 2020, School of Dmytry Lavric, course "JavaScript for markup
+          developer".</h5>
+        <p>An interactive course in small group with mentor which included knowledge about
+          Events, work with data-attributes,
+          Context, Form validation, Throttling and debouncing, OOP in ES6+. How to work with libraries in JS
+          (jQuery),
+          what is
+          callback and other.</p>
+
+        <h5 class="education-subtitle">November 2020, Glo Academy, Wordpress course.</h5>
+        <p>An online course about using Wordpress, including optimization of download
+          speed,
+          SEO for Wordpress etc.</p>
+      </section>
+      <section class="experience">
+        <h3 class="title">Work experience:</h3>
+        <p class="experience__text">September 2015 - January 2019 <span>ABSOLUTE RESORTS&HOTELS LTD</span>, Sales
+          consultant</p>
+        <p class="experience__text">January 2019 - March 2019 <span>INTERCONTINENTAL HOTELS GROUP</span>, internship</p>
+        <p class="experience__text">March 2019 - March 2020<span>Sanya Aviation and Tourism College</span>,Russian
+          teacher
+          for Chinese students</p>
+      </section>
+      <section class="example">
+      <h3 class="title">Code example</h3>
+        <pre>form.addEventListener('submit', function(e){ 
+		let hasError = false;
+
+		for(let i = 0; i &lt; inputs.length; i++){ 
+			let valid = inputs[i].dataset.valid;
+			let pattern = patterns[valid]; 
+			let value = inputs[i].value.trim();
+
+			if(!pattern.test(value)){ 
+				inputs[i].classList.add('err'); 
+				hasError = true; 
+			} 
+		}
+
+		if(hasError){
+			e.preventDefault();
+		}
+	}); 
+                                     </pre>
+      </section>
+      <section class="skills">
+        <h3 class="title">Skills:</h3>
+        <ul class="skills__list">
+          <li class="skills-item">Valid & Cross-Browser HTML5/CSS3 markup</li>
+          <li class="skills-item">Basic knowledge JavaScript/jQuery</li>
+          <li class="skills-item">Basic knowledge PHP</li>
+          <li class="skills-item">Responsive markup</li>
+          <li class="skills-item">Version Control/Git</li>
+          <li class="skills-item">CSS Preprocessing (SCSS, LESS)</li>
+          <li class="skills-item">Gulp</li>
+          <li class="skills-item">PS, Avocode, Figma</li>
+        </ul>
+      </section>
+      <section class="add">
+        <h3 class="title">Additional information:</h3>
+        <p><span>Languages:</span> Ukrainian (mother-tongue), Russian (mother-tongue), English
+          (upper-intermediate), Chinese (advanced)</p>
+      </section>
+  </main>
+	<footer class="footer">
+    <div class="footer-info">
+      <a href="https://github.com/Irina50">My Github</a>
+      <span>2021</span>
+	    </div>
+      <a class="logo" href="https://rs.school/js/">
+        <img src="rs_school_js.svg" alt="logo">
+      </a>
+  </footer>
+</div>
+</body>
+
+</html>
